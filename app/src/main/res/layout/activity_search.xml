@@ -21,7 +21,8 @@
             android:id="@+id/etZipCode"
             android:hint="Digite o CEP"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:maxLength="8"/>
         <Button
             android:id="@+id/btSearch"
             android:text="Pesquisar"

@@ -7,7 +7,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class AddressRepository {
-    fun buscar(
+    fun search(
             zipCode: String,
             onComplete: (Address?) -> Unit,
             onError: (Throwable?) -> Unit

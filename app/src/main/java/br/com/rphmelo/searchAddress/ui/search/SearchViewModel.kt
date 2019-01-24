@@ -15,7 +15,7 @@ class SearchViewModel: ViewModel() {
     fun search(zipCode: String) {
         isLoading.value = true
 
-        addressRepository.buscar(
+        addressRepository.search(
                 zipCode,
                 onComplete = {
                     address.value = it
